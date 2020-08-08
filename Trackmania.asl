@@ -116,7 +116,7 @@ update {
 
 start {
 	vars.StartMap = vars.GetMapName();
-    return !vars.inRace.Old && vars.inRace.Current;
+	return !vars.inRace.Old && vars.inRace.Current;
 }
 
 split {
