@@ -135,7 +135,7 @@ split {
 }
 
 reset {
-    return (vars.inRace.Current && !vars.inRace.Old) && (vars.StartMap == vars.GetMapName());
+	return (vars.inRace.Current && !vars.inRace.Old) && (vars.StartMap == vars.GetMapName());
 }
 
 isLoading {
